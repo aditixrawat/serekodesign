@@ -1,0 +1,91 @@
+window.SK_DATA = {
+  product: {
+    name: 'Hydra-Crème 100H Water Lock Formula',
+    short: 'Hydra-Crème',
+    tagline: 'Repairs Skin Barrier · 100H Hydration · Calms Irritation',
+    price: 920, was: 1200, size: '50 ml',
+    rating: 4.8, reviews: 215,
+    gallery: ['https://cdn.shopify.com/s/files/1/0691/8062/1113/files/hydra_creme_3_0cfbc688-9ef5-42ec-b4da-e0cf7f529af0.webp?v=1781544894','https://cdn.shopify.com/s/files/1/0691/8062/1113/files/2_jpg.jpg?v=1774532443','https://cdn.shopify.com/s/files/1/0691/8062/1113/files/3_0f5bd848-4d84-4cc9-9426-b6cc2c824d51.webp?v=1774532443','https://cdn.shopify.com/s/files/1/0691/8062/1113/files/4_b135841c-44b0-4649-98c8-3161d3f5f16a.webp?v=1774532443','https://cdn.shopify.com/s/files/1/0691/8062/1113/files/6_2_c51cc4b9-47ac-46fc-bb37-f3da279eb832.jpg?v=1778754587','https://cdn.shopify.com/s/files/1/0691/8062/1113/files/5_7ee05f71-56d1-46de-a82f-36ea7b80876a.webp?v=1775643928','https://cdn.shopify.com/s/files/1/0691/8062/1113/files/6_788fadfa-7122-41c1-a0b1-f6f92127c17e.webp?v=1775643928','https://cdn.shopify.com/s/files/1/0691/8062/1113/files/7_01842363-f643-46f5-ac7d-b9bf642dc392.webp?v=1775643928','https://cdn.shopify.com/s/files/1/0691/8062/1113/files/8_abf38d73-be5c-473f-96a5-2c1beea8eae5.webp?v=1775643928','https://cdn.shopify.com/s/files/1/0691/8062/1113/files/9_f5bd1196-70e8-4bc4-8e8d-94dd1fa1da9f.webp?v=1775643928','https://cdn.shopify.com/s/files/1/0691/8062/1113/files/10_55a313a5-4fe5-4413-93ee-62a4e7f9c4a3.webp?v=1775643928'],
+  },
+  treats: ['Damaged Skin Barrier','Dehydrated Skin','Sensitivity','Irritated Skin','Redness'],
+  offers: [
+    'FREE samples on orders above <b>₹699</b>',
+    'FREE Calming Candy Tabs on orders above <b>₹899</b>',
+  ],
+  journey: [
+    {t:'0h', k:'Water Lock', d:'Aquaxyl™ seals the surface the moment it absorbs.'},
+    {t:'3h', k:'Hydration', d:'Water travels deeper; tightness eases.'},
+    {t:'12h', k:'Glow', d:'Skin looks dewy and refreshed.'},
+    {t:'24h', k:'Elasticity', d:'Peptides plump — skin feels bouncy.'},
+    {t:'48h', k:'Comfort', d:'Barrier calms; redness settles.'},
+    {t:'72h', k:'Barrier', d:'Ceramides rebuild the skin wall.'},
+    {t:'100h', k:'Softness', d:'Lasting softness — even after washing.'},
+  ],
+  ingredients: [
+    {name:'Ceramides', img:'assets/ing-ceramides.jpg', role:'Barrier repair', b:'Rebuilds the skin wall to lock moisture in.'},
+    {name:'Peptides', img:'assets/ing-peptides.jpg', role:'Collagen renewal', b:'Plumps skin and boosts long-term hydration.'},
+    {name:'Aquaxyl™', img:'assets/ing-aquaxyl.jpg', role:'Water reservoir', b:'Keeps skin hydrated for up to 100 hours.'},
+    {name:'Centella', img:'assets/ing-centella.jpg', role:'Cica soother', b:'Calms redness and speeds barrier recovery.'},
+    {name:'Marine Algae', img:'assets/ing-algae.jpg', role:'Mineral hydration', b:'Trace minerals that keep skin supple.'},
+  ],
+  benefits: [
+    {t:'Reduces Redness', img:'assets/skin-redness.jpg'},
+    {t:'Calms Irritation', img:'assets/skin-irritation.jpg'},
+    {t:'Hydrates Dry Skin', img:'assets/skin-dry.jpg'},
+    {t:'Repairs Barrier', img:'assets/skin-barrier.jpg'},
+  ],
+  stats: [
+    {n:97, s:'instant boost in skin hydration*'},
+    {n:96, s:'felt instant skin hydration'},
+    {n:88, s:'experienced noticeably plumper skin'},
+  ],
+  compare: [
+    {row:'100H water-lock formula', us:true, them:false},
+    {row:'5 essential ceramides', us:true, them:false},
+    {row:'2 peptides + Aquaxyl™', us:true, them:false},
+    {row:"Won't clog pores", us:true, them:false},
+    {row:'Non-sticky, dewy finish', us:true, them:false},
+    {row:'Fragrance-free', us:true, them:false},
+    {row:'Dermatologist tested', us:true, them:false},
+    {row:'Price', us:'₹1,200', them:'₹3,550'},
+  ],
+  routine: {
+    Morning: ['Cleanser','Toner','Hydra-Crème','SPF'],
+    Night: ['Cleanser','Toner','Hydra-Crème','Repair Serum'],
+  },
+  bundle: [
+    {id:'cleanser', name:'Vitamin C Clarifying Cleanser', img:'https://cdn.shopify.com/s/files/1/0691/8062/1113/files/vitamin_c_cleanser_7435ec01-731c-4999-9d14-ce8b4b180c96.webp?v=1781544258', price:669, was:850},
+    {id:'toner', name:'Vitamin C Clarifying Toner', img:'https://cdn.shopify.com/s/files/1/0691/8062/1113/files/vitamin_c_TONER_1.webp?v=1781544410', price:600, was:750},
+    {id:'creme', name:'Hydra-Crème', img:'https://cdn.shopify.com/s/files/1/0691/8062/1113/files/hydra_creme_3_0cfbc688-9ef5-42ec-b4da-e0cf7f529af0.webp?v=1781544894', price:920, base:true},
+    {id:'sun', name:'24H Hydration Sunscreen', img:'https://cdn.shopify.com/s/files/1/0691/8062/1113/files/24h_sunscreen_faf310c1-d1e6-46b1-a6eb-c867cebd520b.webp?v=1781543298', price:449, was:599},
+    {id:'serum', name:'Vitamin C Face Serum', img:'https://cdn.shopify.com/s/files/1/0691/8062/1113/files/vitamin_c_SERUM_copy_479d48f2-9412-4eca-9d9e-c0d6cacbb1b7.webp?v=1781543970', price:949, was:1250},
+    {id:'mist', name:'Hydra-Protect Sun Mist', img:'assets/prod-mist.png', price:499},
+  ],
+  reviews: [
+    {name:'Ananya R.', tags:['Dry','Monsoon'], stars:5, title:'Skin drinks it up', body:"Instantly hydrated my barrier without any grease. My skin feels plump all day even in Mumbai humidity."},
+    {name:'Priya K.', tags:['Sensitive'], stars:5, title:'Finally something that calms', body:"My redness settled in two weeks. Fragrance-free and never stings. Repurchasing for sure."},
+    {name:'Meera S.', tags:['Dry','Festive'], stars:5, title:'Festive glow, sorted', body:"Makeup sits so smoothly now — no more patchy foundation. The dewy finish is unreal."},
+    {name:'Riya T.', tags:['Oily'], stars:4, title:'Lightweight & hydrating', body:"Oily skin here — it hydrates without clogging. Absorbs in seconds and leaves a soft glow."},
+    {name:'Sana M.', tags:['Sensitive','Monsoon'], stars:5, title:'Barrier saviour', body:"Repaired my over-exfoliated barrier. Calm, comfortable, no tightness after washing."},
+  ],
+  faq: [
+    {q:'Why is Hydra-Crème different from other gel moisturizers?',
+     a:'Most gels hydrate the surface and evaporate. Hydra-Crème uses a 100H Water Lock (Aquaxyl™ + 5 ceramides + 2 peptides) that seals moisture into the barrier — so hydration lasts up to 100 hours, even after washing.'},
+    {q:'Is it okay for oily or acne-prone skin?',
+     a:'Yes. It’s a lightweight water-crème that hydrates without clogging pores or leaving grease — ideal for oily-but-dehydrated skin.'},
+    {q:'Can I wear it under makeup?',
+     a:'Absolutely. The dewy, non-sticky finish makes a perfect base — foundation glides on without creasing or patchiness.'},
+    {q:'What is psychodermatology / NeuroCalm(S)®?',
+     a:'Our proprietary formula is clinically shown to reduce skin-stress markers — 17.8% reduction in stress-related symptoms and 16.3% reduction in anxiety — for skin that glows from within.'},
+  ],
+  promises: [
+    {icon:'fresh', label:'Freshly Made'},
+    {icon:'drop', label:'Mineral Oil Free'},
+    {icon:'leaf', label:'Sulphate Free'},
+    {icon:'shield', label:'Paraben Free'},
+    {icon:'check', label:'Non Toxic'},
+  ],
+};
+window.SK_STEP_PRODUCT_MAP = {'Cleanser':'cleanser','Toner':'toner','Hydra-Crème':'creme','SPF':'sun','Repair Serum':'serum'};
+window.SK_STEP_DESC = {'Cleanser':'Wash away impurities, prep skin for actives.','Toner':'Rebalance pH, prime for hydration.','Hydra-Crème':'100H water lock, seals it all in.','SPF':'Broad-spectrum shield, reapply outdoors.','Repair Serum':'Overnight barrier repair, wake up plump.'};
+window.SK_ICONS = {fresh:'M12 3c3 4 5 6.5 5 9a5 5 0 11-10 0c0-2.5 2-5 5-9z',drop:'M12 3c3 4 5 6.5 5 9a5 5 0 11-10 0c0-2.5 2-5 5-9z',leaf:'M5 19C4 12 9 5 19 5c0 10-7 15-14 14zm0 0c3-5 6-7 10-8',shield:'M12 3l7 3v5c0 4.5-3 8-7 10-4-2-7-5.5-7-10V6z',check:'M4 12l5 5L20 6'};
